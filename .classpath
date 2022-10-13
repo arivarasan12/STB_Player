@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="iptv-stable-v1-master/IPTV-JAVA-main/src"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx-swt.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx.base.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx.controls.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx.graphics.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx.fxml.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx.media.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx.swing.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/Desktop/openjfx-19_windows-x64_bin-sdk (1)/javafx-sdk-19/lib/javafx.web.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ariva/Downloads/json-20220924.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/OneDrive/4 th sem/WJP/LAB/EXPERIEMENT/eclipse/hg/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="output" path="out/production/iptv-stable-v1-master"/>
+</classpath>
