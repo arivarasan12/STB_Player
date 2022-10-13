@@ -134,7 +134,7 @@ public class SignUp extends JFrame implements ActionListener {
 
         setLocation(300,300);
         setTitle("STB Player-Register");
-        ImageIcon icon = new ImageIcon("D:\\IPTV\\src\\resources\\logo.png");
+        ImageIcon icon = new ImageIcon("C:\\Users\\ariva\\Downloads\\iptv-stable-v1-master\\iptv-stable-v1-master\\IPTV-JAVA-main\\src\\resources\\logo.png");
         setIconImage(icon.getImage());
         getContentPane().setBackground(new Color(0x242B2E));
         setVisible(true);
@@ -210,7 +210,7 @@ public class SignUp extends JFrame implements ActionListener {
         //Inserting the user into the database
         Connection dbConn = ConnectionMySql.getConnection();
 
-        String insertQuery = "INSERT INTO users (username,email,pack,lang,mac,password,country) VALUES (?,?,?,?,?,?,?)";
+        String insertQuery = "INSERT INTO account (username,email,pack,language,mac_address,password,country) VALUES (?,?,?,?,?,?,?)";
 
         PreparedStatement psmt = dbConn.prepareStatement(insertQuery);
         psmt.setString(1,username);

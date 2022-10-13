@@ -35,7 +35,7 @@ public class Login extends JFrame implements ActionListener {
     Login() throws IOException {
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(new GridLayout(0,2));
+        setLayout(null);
         setSize(640,460);
         setResizable(false);
 
@@ -65,7 +65,7 @@ public class Login extends JFrame implements ActionListener {
         signup.addActionListener(this);
 
         imageLabel = new JLabel();
-        BufferedImage img = ImageIO.read(new File("C:\\Users\\ariva\\Downloads\\iptv-stable-v1-master\\iptv-stable-v1-master\\IPTV-JAVA-main\\src\\resources\\login-i.png"));
+        BufferedImage img = ImageIO.read(new File("C:\\Users\\ariva\\Downloads\\abc.png"));
         ImageIcon loginImage = new ImageIcon(img);
         imageLabel.setIcon(loginImage);
         imageLabel.setBackground(new Color(0x242B2E));

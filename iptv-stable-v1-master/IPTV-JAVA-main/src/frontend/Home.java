@@ -112,7 +112,7 @@ public class Home extends Application {
         root.getChildren().add(label1);
         root.getChildren().add(label2);
         root.getChildren().add(label3);
-         scene = new Scene(root, 1920, 970,Color.BLUEVIOLET);
+         scene = new Scene(root, 1920, 970,Color.BEIGE);
         stage.setTitle("Button Graphics");
         stage.setScene(scene);
         stage.show();
@@ -149,7 +149,9 @@ public class Home extends Application {
         Stage stage1  = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
 
         VideoPlayer videoPlayer = new VideoPlayer(path);
-        Scene scene1 = new Scene(videoPlayer,1980,1080);
+        Scene scene1 = new Scene(videoPlayer,1080,720);
+
+        stage1.setFullScreen(true);
 
 
         stage1.setScene(scene1);
@@ -163,6 +165,8 @@ public class Home extends Application {
 
             if (alert.showAndWait().get() == ButtonType.OK) {
                 windowEvent.consume();
+                videoPlayer.mediaPlayer.stop();
+
                 stage1.setScene(scene);
                 stage1.show();
             }

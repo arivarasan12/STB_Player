@@ -12,7 +12,7 @@ import videoplayer.VideoBar;
 
 public class VideoPlayer extends BorderPane {
     Media media;
-    MediaPlayer mediaPlayer;
+   public MediaPlayer mediaPlayer;
     MediaView mediaView;
     Pane pane;
 
@@ -20,6 +20,8 @@ public class VideoPlayer extends BorderPane {
         media = new Media(filePath);
         mediaPlayer = new MediaPlayer(media);
         mediaView = new MediaView(mediaPlayer);
+//        mediaView.setPreserveRatio(true);
+
         pane = new Pane();
 
         pane.getChildren().add(mediaView);
@@ -31,6 +33,7 @@ public class VideoPlayer extends BorderPane {
 
         VideoBar bar = new VideoBar(mediaPlayer);
         setBottom(bar);
+        mediaView.autosize();
 
         mediaPlayer.setAutoPlay(true);
         mediaPlayer.play();
